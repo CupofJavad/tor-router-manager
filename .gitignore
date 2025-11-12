@@ -1,0 +1,42 @@
+# .gitignore — Python + PyCharm + this project
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Virtualenvs
+venv/
+.env/
+.venv/
+
+# PyCharm project files
+.idea/
+
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and dumps
+*.log
+*.out
+*.pid
+
+# Custom project files
+_rotate_exit.rendered.sh
+config.yaml
+
+# OS generated
+.DS_Store
+Thumbs.dbconfig.yaml
